@@ -30,7 +30,7 @@ li {
 }
 
 .cover {
-  background: url("cover.jpg") no-repeat center bottom;
+  background: url("/cover.jpg") no-repeat center bottom;
   background-size: cover;
   height: 500px;
   width: 100%;
