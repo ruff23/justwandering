@@ -1,0 +1,66 @@
+/* Css Document */
+
+*{
+  padding:0;
+  margin:0;
+}
+.navigation {
+  background-color: #396060;
+  overflow-y: auto;
+  position: fixed;
+  left:0;
+  top:0;
+  text-align: center;
+  width: 100%;
+  height: 55px;
+  z-index: 10000;
+}
+
+
+li {
+  color: #F0FFFF; 
+  display: inline-block;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 2px 5px;
+  margin: 5px 30px;
+  text-align: center;
+  border: 1px solid;
+}
+
+.cover {
+  background: url("images/cover.jpg") no-repeat center bottom;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+#cover-content {
+  box-sizing: border-box;
+  position: relative;
+  top: 20%;
+  width: 60%;
+  padding: 30px 10px;
+  margin: auto;
+  z-index: 1;
+}
+
+h1 {
+ color:#F0FFFF; 
+ font-size:72px;
+ text-align: center;
+ font-family: 'Amatic SC', sans-serif;
+}
+
+table, th, td {
+ width: 100%;
+ height: 50px;
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+
+p {
+  color:black; font-size:14px; font-family:Verdana, Geneva, sans-serif;
+}
+
