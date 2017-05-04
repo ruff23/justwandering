@@ -16,6 +16,14 @@
   z-index: 10000;
 }
 
+.navigation a{
+  text-decoration: none;
+  color: #F0FFFF; 
+}
+
+.navigation a:hover{
+  color: #001A1A;
+}
 
 li {
   color: #F0FFFF; 
